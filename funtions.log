@@ -1,0 +1,56 @@
+2020-06-02 22:07:53,749 - INFO - Вызов функции: add_new c аргументами <__main__.PhoneBook object at 0x10a25c7f0> ,Имя: Jhon
+Фамилия: Smith
+Телефон: +71234567809
+В избранных: нет
+Дополнительная информация:
+	telegram: @jhony
+	email: jhony@smith.com
+
+2020-06-02 22:07:53,750 - INFO - Результат: Контакт Jhon Smith успешно добавлен.
+2020-06-02 22:07:53,750 - INFO - Вызов функции: add_new c аргументами <__main__.PhoneBook object at 0x10a25c7f0> ,Имя: Derek
+Фамилия: Nolan
+Телефон: +71234560987
+В избранных: да
+Дополнительная информация:
+	instagram: @dnolan
+	email: derek@gmail.com
+
+2020-06-02 22:07:53,750 - INFO - Вызов функции: add_new c аргументами <__main__.PhoneBook object at 0x10a25c7f0> ,Имя: Derek
+Фамилия: Nolan
+Телефон: +71234560987
+В избранных: да
+Дополнительная информация:
+	instagram: @dnolan
+	email: derek@gmail.com
+
+2020-06-02 22:07:53,750 - INFO - Результат: Контакт Derek Nolan успешно добавлен.
+2020-06-02 22:07:53,750 - INFO - Результат: Контакт Derek Nolan успешно добавлен.
+2020-06-02 22:07:53,750 - INFO - Вызов функции: show_favs c аргументами <__main__.PhoneBook object at 0x10a25c7f0>
+2020-06-02 22:07:53,750 - INFO - Результат: Имя: Derek
+Фамилия: Nolan
+Телефон: +71234560987
+В избранных: да
+Дополнительная информация:
+	instagram: @dnolan
+	email: derek@gmail.com
+
+2020-06-02 22:07:53,751 - INFO - Вызов функции: delete_contact c аргументами <__main__.PhoneBook object at 0x10a25c7f0> ,+71234567809
+2020-06-02 22:07:53,751 - INFO - Результат: Контакт Jhon Smith успешно удален.
+2020-06-02 22:07:53,751 - INFO - Вызов функции: show_contacts c аргументами <__main__.PhoneBook object at 0x10a25c7f0>
+2020-06-02 22:07:53,751 - INFO - Результат: Имя: Derek
+Фамилия: Nolan
+Телефон: +71234560987
+В избранных: да
+Дополнительная информация:
+	instagram: @dnolan
+	email: derek@gmail.com
+
+2020-06-02 22:07:53,752 - INFO - Вызов функции: search_contact c аргументами <__main__.PhoneBook object at 0x10a25c7f0> ,Derek Nolan
+2020-06-02 22:07:53,752 - INFO - Результат: Имя: Derek
+Фамилия: Nolan
+Телефон: +71234560987
+В избранных: да
+Дополнительная информация:
+	instagram: @dnolan
+	email: derek@gmail.com
+
