@@ -16,7 +16,7 @@ def log_file(file_path):
             logger.info(f"Вызов функции: {name} c аргументами {' ,'.join(str(x) for x in args)}")
             result = func(*args, **kwargs)
             logger.info("Результат: %s" % result)
-            return func
+            return result
 
         return wrap_log
     return log
@@ -28,3 +28,4 @@ def double_function(a):
   
 if __name__ == "__main__":
     value = double_function(2)
+    print(value)
